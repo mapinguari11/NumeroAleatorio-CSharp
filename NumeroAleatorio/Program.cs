@@ -1,6 +1,6 @@
 ﻿Random numeroAleatorio = new Random();
 int numeroSecreto = numeroAleatorio.Next(1, 101);
-Console.WriteLine(numeroSecreto);
+
 do
 {
     Console.WriteLine("Digite um número entre 1 e 100: ");
@@ -22,3 +22,5 @@ do
 } while (true);
 
 Console.WriteLine("Você acertou o número secreto! Parabéns!");
+Console.WriteLine("\nPressione qualquer tecla para sair.");
+Console.ReadKey();
